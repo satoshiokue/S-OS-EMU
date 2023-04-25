@@ -36,22 +36,7 @@ FuzzyBASIC
 STACKインタプリタ  
 
 プログラム言語のバイナリコードを配列データ化してmain.cの配列BASIC[]、LISP[]、FORTH[]、PROLOG[]、STACK[]に格納するとZ80のOUT命令で0x3000に転送することができます。  
-またS-OSモニタのコマンドでプログラムをロードすることもできます。
-```
-<<<<< S-OS  EMUZ80 >>>>>
-#H
-
-< S-OS EMUZ80 HELP >
-M - Universal Monitor
-J[ADDRESS]
-
-B - LOAD FuzzyBASIC
-F - LOAD magiFORTH
-L - LOAD Lisp-85
-P - LOAD Prolog-85
-S - LOAD STACK
-#
-```
+またS-OSモニタのコマンドでプログラムをロードすることもできます。 
 
 ## ライセンス
 EMUZ80ファームウェアのmain.c  
