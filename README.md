@@ -38,6 +38,8 @@ STACKインタプリタ
 プログラム言語のバイナリコードを配列データ化してmain.cの配列BASIC[]、LISP[]、FORTH[]、PROLOG[]、STACK[]に格納するとZ80のOUT命令で0x3000に転送することができます。  
 またS-OSモニタのコマンドでプログラムをロードすることもできます。 
 
+ファームウェアの書き込みはSuperMEZ80リポジトリで確認してください。  
+
 ## ライセンス
 EMUZ80ファームウェアのmain.c  
 GNU General Public License v3.0  
