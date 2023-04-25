@@ -2,6 +2,8 @@
 S-OS SWORDはマイコン雑誌Oh!MZで発表されたZ80用のOSです。  
 S-OS EMUZ80はS-OSに蓄積された豊富なプログラム言語の一部をEMUZ80で動かすことができます。  
 
+S-OS SWORDのコードはMZ-80B/2000/2200/2500を元にしています。  
+
 EMUZ80用のモニタにはUniversal Monitorを拡張したEMUZ80-MON のRev.B02相当を使用しています。  
 https://github.com/akih-san/EMUZ80-MON  
 
