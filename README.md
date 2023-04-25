@@ -5,6 +5,8 @@ S-OS EMUZ80はS-OSに蓄積された豊富なプログラム言語の一部をEM
 EMUZ80用のモニタにはUniversal Monitorを拡張したEMUZ80-MON のRev.B02相当を使用しています。  
 https://github.com/akih-san/EMUZ80-MON  
 
+![S-OS](https://github.com/satoshiokue/S-OS-EMUZ80/blob/main/HELP.jpeg)
+
 ## 対象ハードウェア
 SuperMEZ80 (EMUZ80+MEZ80RAM)  
 https://github.com/satoshiokue/SuperMEZ80  
