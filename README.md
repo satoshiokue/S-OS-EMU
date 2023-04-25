@@ -1,8 +1,9 @@
 # S-OS EMUZ80
 S-OS SWORDはマイコン雑誌Oh!MZで発表されたZ80用のOSです。  
-S-OS EMUZ80はS-OSに蓄積された豊富なプログラム言語の一部をEMUZ80で動かせます。  
+S-OS EMUZ80はS-OSに蓄積された豊富なプログラム言語の一部をEMUZ80で動かすことができます。  
 
-
+EMUZ80用のモニタにはUniversal Monitorを拡張したEMUZ80-MON のRev.B02相当を使用しています。  
+https://github.com/akih-san/EMUZ80-MON  
 
 ## 対象ハードウェア
 SuperMEZ80 (EMUZ80+MEZ80RAM)  
@@ -12,6 +13,7 @@ https://github.com/satoshiokue/SuperMEZ80
 Macro Assembler 1.42 Beta [Bld 229]  
 http://john.ccac.rwth-aachen.de:8000/as/  
 
+S-OS.asmとunimon.asmを同じフォルダに格納してアセンブルしてください。
 ```
 asl -L unimon.asm
 ```
@@ -48,3 +50,10 @@ P - LOAD Prolog-85
 S - LOAD STACK
 #
 ```
+
+## ライセンス
+EMUZ80ファームウェアのmain.c  
+GNU General Public License v3.0  
+
+その他のコード  
+MIT License  
